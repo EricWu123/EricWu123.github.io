@@ -1,23 +1,22 @@
 <!DOCTYPE HTML>
 <html lang="zh-en">
 <head>
-	<meta name="generator" content="Hugo 0.93.0" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-    <title>My Blog - My Blog</title>
+    <title>虚拟内存 - My Blog</title>
     <meta name="keywords" content="wyq test">
     
-    <meta property="og:title" content="My Blog">
+    <meta property="og:title" content="虚拟内存">
     <meta property="og:site_name" content="My Blog">
     <meta property="og:image" content="/img/author.jpg"> 
-    <meta name="title" content="My Blog - My Blog" />
+    <meta name="title" content="虚拟内存 - My Blog" />
     <meta name="description" content="test | 1 | 2 | 333 | 44 | Golang"> 
     <link rel="shortcut icon" href="/img/favicon.ico" />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
     <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png" />
     <link href="/js/vendor/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-    
+    <link href="/js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
     <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" id="hexo.configuration">
@@ -25,7 +24,7 @@
   var CONFIG = {
     scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
-    fancybox: false, 
+     fancybox: true, 
     motion: true
   };
 </script>
@@ -94,46 +93,66 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-    
- <section id="posts" class="posts-expand">
+<section id="posts" class="posts-expand">
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+        <a class="post-title-link" href="https://ericwu123.github.io/linux/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98/" itemprop="url">
+        虚拟内存
+        </a>
+      </h1>
+      <div class="post-meta">
+      <span class="post-time">
+<span class="post-meta-item-icon">
+    <i class="fa fa-calendar-o"></i>
+</span>
+<span class="post-meta-item-text">Published at:</span>
+<time itemprop="dateCreated" datetime="2016-03-22T13:04:35+08:00" content="2022-03-01">
+    2022-03-01
+</time>
+</span> 
+      
+       <span>
+&nbsp; | &nbsp;
+<span class="post-meta-item-icon">
+    <i class="fa fa-eye"></i>
+</span>
+<span class="post-meta-item-text">Reading:</span>
+<span class="leancloud-visitors-count">3 words ~1min</span>
+</span>
+      </div>
+    </header>
+    <div class="post-body" itemprop="articleBody">
+    <h1 id="虚拟内存">虚拟内存</h1>
+<h2 id="进程内存分布">进程内存分布</h2>
+<h2 id="aa">aa</h2>
 
+    </div>
+    <footer class="post-footer">
+     
+
+     <div class="post-nav">
+    <div class="post-nav-next post-nav-item">
+    
+    </div>
+
+    <div class="post-nav-prev post-nav-item">
+    
+    </div>
+</div>
+      
+     
+     
+     
+
+
+
+
+
+
+    </footer>
+  </article>
 </section>
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-  
-  
-
-
-
-<nav class="pagination">
-    
-    
-        
-        
-          <span class="page-number current">1</span>
-        
-        
-    
-    
-</nav>
-
-
-
 
           </div>
         </div>
@@ -183,13 +202,6 @@
     </div>
 </nav>
       
-<div class="feed-link motion-element">
-<a href="/index.xml" rel="alternate" type="application/rss+xml" target="_blank">
-    <i class="fa fa-rss"></i>
-    RSS
-</a>
-</div>
-
       
 <div class="links-of-author motion-element">
     
@@ -264,16 +276,18 @@
 <script type="text/javascript" src="/js/vendor/velocity/velocity.ui.min.js?v=1.2.1"></script>
 <script src="/js/vendor/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
 
+<script src="/js/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 <script type="text/javascript" src="/js/utils.js"></script>
 <script type="text/javascript" src="/js/motion.js"></script>
 <script type="text/javascript" src="/js/affix.js"></script>
 <script type="text/javascript" src="/js/schemes/pisces.js"></script>
 
-<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/scrollspy.js"></script>
+<script type="text/javascript" src="/js/post-details.js"></script>
+<script type="text/javascript" src="/js/toc.js"></script>
 
-<script type="text/javascript" id="motion.page.archive">
-  $('.archive-year').velocity('transition.slideLeftIn');
-</script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
 
 <script type="text/javascript" src="/js/search.js"></script>
 <script type="text/x-mathjax-config">
