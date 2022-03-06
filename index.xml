@@ -5,6 +5,16 @@
     <link>https://ericwu123.github.io/</link>
     <description>Recent content on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-en</language><atom:link href="https://ericwu123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-en</language>
+    <lastBuildDate>Tue, 01 Mar 2022 22:57:30 +0800</lastBuildDate><atom:link href="https://ericwu123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>虚拟内存</title>
+      <link>https://ericwu123.github.io/linux/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98/</link>
+      <pubDate>Tue, 01 Mar 2022 22:57:30 +0800</pubDate>
+      
+      <guid>https://ericwu123.github.io/linux/%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98/</guid>
+      <description>虚拟内存 进程内存分布  </description>
+    </item>
+    
   </channel>
 </rss>
